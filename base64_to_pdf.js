@@ -4,7 +4,7 @@ const base64Content = "JVBERi0xLjQKJdPr6eEKMSAwIG9iago8PC9DcmVhdG9yIChDaHJvbWl1b
 
 
 const decodedContent = Buffer.from(base64Content, 'base64');
-const outputFilePath = 'myLastTry.pdf';
+const outputFilePath = 'convertedHtml.pdf';
 
 fs.writeFileSync(outputFilePath, decodedContent);
 
